@@ -2,9 +2,19 @@
 
 ### 如何运行&测试
 
+如果图片/视频显示有问题,还请查看readme.html文件
+
 #### 方法一:
 
+1.将压缩包解压缩,里面有OOAD_LAB.jar文件,在命令行中运行即可运行
 
+```bash
+java -jar OOAD_LAB.jar
+```
+
+2.关于测试,由于使用了Junit,在网上搜了好久都找不到可以命令行直接运行测试的,要么就是过于麻烦,要么就是利用maven,因此我这里录制了一个运行测试的视频,如果助教想要实际运行测试的话,可以按照方法二进行操作
+
+<video id="video" controls="" preload="none"> <source id="mp4" src="readme_image/test.mp4" type="video/mp4"> </video>
 
 #### 方法二:
 
@@ -19,6 +29,8 @@
 3.在test目录右键,点击run all test,即可运行所有测试用例
 
 <img src="readme_image/runCode_1_3.png" width="75%"></img>
+
+---
 
 ### 目录结构
 
