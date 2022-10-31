@@ -7,7 +7,6 @@ import OOAD_LAB.command.CommandStack;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 
 import static OOAD_LAB.bookmark.BookmarkTest.initOpenBookmarkCommandTest;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -50,9 +49,6 @@ public class OpenCommandTest {
         Bookmark bookmark = new Bookmark("",0,new ArrayList<>(),new ArrayList<>());
         Command openCommand = new OpenCommand("/test/OOAD_LAB/command/commands/test.bmk",new Model(bookmark));
         CommandStack.execute(openCommand);
-//        bookmark.equals(initOpenBookmarkCommandTest());
-        System.out.println(bookmark);
-        System.out.println(initOpenBookmarkCommandTest());
         assertTrue(bookmark.equals(initOpenBookmarkCommandTest()));
     }
 }

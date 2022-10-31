@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="571px" preserveAspectRatio="none" style="width:428px;height:571px;background:#FFFFFF;" version="1.1" viewBox="0 0 428 571" width="428px" zoomAndPan="magnify"><defs/><g><!--MD5=[3c1db82047404282ce9450ce0e4f5184]
+class Bookmark--><g id="elem_Bookmark"><rect codeLine="3" fill="#F1F1F1" height="315.6816" id="Bookmark" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="331" x="17" y="7"/><ellipse cx="146.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M146.4375,29 Q144.5,29 143.375,27.5781 Q142.25,26.1406 142.25,23.1875 Q142.25,20.6875 143.4375,19 Q144.625,17.3125 146.6875,17.3125 Q147.1719,17.3125 147.6719,17.4219 Q148.0781,17.5625 148.3281,17.5625 Q148.5313,17.5625 148.6094,17.5469 Q148.7031,17.5156 149.2344,16.8438 L149.9688,21.0781 L149,21.6719 Q148.5,20.125 147.9219,19.5625 Q147.3594,19 146.4531,19 Q145.2969,19 144.6094,20.1875 Q143.9375,21.3594 143.9375,23.1875 Q143.9375,25.1875 144.5156,26.25 Q145.0938,27.3125 146.3906,27.3125 Q147.3125,27.3125 147.9531,26.75 Q148.6094,26.1719 148.9531,24.7813 L149.9844,25.2969 Q149.5938,27.0469 148.6563,28.0313 Q147.7188,29 146.4375,29 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="167.25" y="29.4839">Bookmark</text><line style="stroke:#181818;stroke-width:0.5;" x1="18" x2="347" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="23" y="59.0439">Bookmark bookmark</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="23" y="78.1641">String title</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="23" y="97.2842">Integer level</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="23" y="116.4043">List&lt;Pair&lt;String,MarkInfo&gt;&gt; marks</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="23" y="135.5244">List&lt;Bookmark&gt; subBookmark</text><line style="stroke:#181818;stroke-width:0.5;" x1="18" x2="347" y1="142.6006" y2="142.6006"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="23" y="162.6445">getInstance()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="23" y="181.7646">addSubBookmark(Bookmark b)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="253" x="23" y="200.8848">addSubBookmark(Bookmark b,int index)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="202" x="23" y="220.0049">findBookmarkByTitle(String title)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="319" x="23" y="239.125">findBookmarkByNode(OperationParentNode node)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="230" x="23" y="258.2451">findBookmarkByMarkKey(String key)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="23" y="277.3652">deleteBookmarkByTitle(String title)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="23" y="296.4854">clearBookMarkInfo()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="241" x="23" y="315.6055">readBookmark(String bookmarkName)</text></g><!--MD5=[1ea058d634502c32f7d3c1af855eecf4]
+class MarkInfo--><g id="elem_MarkInfo"><rect codeLine="20" fill="#F1F1F1" height="143.6006" id="MarkInfo" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="127" x="7" y="402"/><ellipse cx="40.45" cy="418" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M40.1375,424 Q38.2,424 37.075,422.5781 Q35.95,421.1406 35.95,418.1875 Q35.95,415.6875 37.1375,414 Q38.325,412.3125 40.3875,412.3125 Q40.8719,412.3125 41.3719,412.4219 Q41.7781,412.5625 42.0281,412.5625 Q42.2313,412.5625 42.3094,412.5469 Q42.4031,412.5156 42.9344,411.8438 L43.6688,416.0781 L42.7,416.6719 Q42.2,415.125 41.6219,414.5625 Q41.0594,414 40.1531,414 Q38.9969,414 38.3094,415.1875 Q37.6375,416.3594 37.6375,418.1875 Q37.6375,420.1875 38.2156,421.25 Q38.7938,422.3125 40.0906,422.3125 Q41.0125,422.3125 41.6531,421.75 Q42.3094,421.1719 42.6531,419.7813 L43.6844,420.2969 Q43.2938,422.0469 42.3563,423.0313 Q41.4188,424 40.1375,424 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="58.55" y="424.4839">MarkInfo</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="133" y1="434" y2="434"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="13" y="454.0439">String name</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="13" y="473.1641">String url</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="13" y="492.2842">Integer readCount</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="13" y="511.4043">Boolean isRead</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="13" y="530.5244">Integer level</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="133" y1="537.6006" y2="537.6006"/></g><!--MD5=[e048b7696d9671dc8f20ed9287f48e9b]
+class OperationParentNode--><g id="elem_OperationParentNode"><rect codeLine="28" fill="#F1F1F1" height="181.8408" id="OperationParentNode" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="252" x="169.5" y="383"/><ellipse cx="222.25" cy="399" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M221.9375,405 Q220,405 218.875,403.5781 Q217.75,402.1406 217.75,399.1875 Q217.75,396.6875 218.9375,395 Q220.125,393.3125 222.1875,393.3125 Q222.6719,393.3125 223.1719,393.4219 Q223.5781,393.5625 223.8281,393.5625 Q224.0313,393.5625 224.1094,393.5469 Q224.2031,393.5156 224.7344,392.8438 L225.4688,397.0781 L224.5,397.6719 Q224,396.125 223.4219,395.5625 Q222.8594,395 221.9531,395 Q220.7969,395 220.1094,396.1875 Q219.4375,397.3594 219.4375,399.1875 Q219.4375,401.1875 220.0156,402.25 Q220.5938,403.3125 221.8906,403.3125 Q222.8125,403.3125 223.4531,402.75 Q224.1094,402.1719 224.4531,400.7813 L225.4844,401.2969 Q225.0938,403.0469 224.1563,404.0313 Q223.2188,405 221.9375,405 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="242.75" y="405.4839">OperationParentNode</text><line style="stroke:#181818;stroke-width:0.5;" x1="170.5" x2="420.5" y1="415" y2="415"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="175.5" y="435.0439">Integer level</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="175.5" y="454.1641">String title</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="175.5" y="473.2842">Integer index</text><line style="stroke:#181818;stroke-width:0.5;" x1="170.5" x2="420.5" y1="480.3604" y2="480.3604"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="175.5" y="500.4043">getLevel()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="175.5" y="519.5244">getTitle()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="175.5" y="538.6445">getIndex()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="240" x="175.5" y="557.7646">OperationParentNode(level,title,index)</text></g><!--MD5=[233a740d14ca0212a91a1546f2bf92ee]
+reverse link Bookmark to MarkInfo--><g id="link_Bookmark_MarkInfo"><path codeLine="39" d="M120.71,335.36 C112.18,358.75 103.83,381.64 96.47,401.83 " fill="none" id="Bookmark-backto-MarkInfo" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="125.19,323.1,119.3756,327.3652,121.0764,334.3729,126.8908,330.1077,125.19,323.1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[77796a177d5356b53ad1d04902782634]
+link Bookmark to OperationParentNode--><g id="link_Bookmark_OperationParentNode"><path codeLine="40" d="M240.32,323.1 C247.22,341.84 254.1,360.51 260.53,377.99 " fill="none" id="Bookmark-to-OperationParentNode" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="262.33,382.89,262.9776,373.0625,260.6041,378.1973,255.4693,375.8239,262.33,382.89" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b1b7055736a2ac5e8bea07f354c93ce4]
+@startuml
+'https://plantuml.com/class-diagram
+
+class Bookmark{
+Bookmark bookmark
+String title
+Integer level
+List<Pair<String,MarkInfo>> marks
+List<Bookmark> subBookmark
+getInstance()
+addSubBookmark(Bookmark b)
+addSubBookmark(Bookmark b,int index)
+findBookmarkByTitle(String title)
+findBookmarkByNode(OperationParentNode node)
+findBookmarkByMarkKey(String key)
+deleteBookmarkByTitle(String title)
+clearBookMarkInfo()
+readBookmark(String bookmarkName)
+}
+
+class MarkInfo{
+String name
+String url
+Integer readCount
+Boolean isRead
+Integer level
+}
+
+class OperationParentNode{
+Integer level
+String title
+Integer index
+getLevel()
+getTitle()
+getIndex()
+OperationParentNode(level,title,index)
+}
+
+'Bookmark - - MarkInfo
+Bookmark o- - MarkInfo
+Bookmark ..> OperationParentNode
+@enduml
+
+@startuml
+
+class Bookmark{
+Bookmark bookmark
+String title
+Integer level
+List<Pair<String,MarkInfo>> marks
+List<Bookmark> subBookmark
+getInstance()
+addSubBookmark(Bookmark b)
+addSubBookmark(Bookmark b,int index)
+findBookmarkByTitle(String title)
+findBookmarkByNode(OperationParentNode node)
+findBookmarkByMarkKey(String key)
+deleteBookmarkByTitle(String title)
+clearBookMarkInfo()
+readBookmark(String bookmarkName)
+}
+
+class MarkInfo{
+String name
+String url
+Integer readCount
+Boolean isRead
+Integer level
+}
+
+class OperationParentNode{
+Integer level
+String title
+Integer index
+getLevel()
+getTitle()
+getIndex()
+OperationParentNode(level,title,index)
+}
+
+Bookmark o- - MarkInfo
+Bookmark ..> OperationParentNode
+@enduml
+
+PlantUML version 1.2022.12(Mon Oct 24 02:12:26 CST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>

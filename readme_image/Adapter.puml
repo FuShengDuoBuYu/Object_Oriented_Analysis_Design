@@ -1,0 +1,49 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+title 适配器模式类图
+
+class TreeViewer{
+ ITreeContentProvider contentProvider
+ INameProvider nameProvider
+ addSpaceByLevel(String,int,boolean,ArrayList<Boolean>)
+ printTree(Object,boolean,ArrayList<Boolean>)
+ }
+
+ interface ITreeContentProvider{
+ getChildren(Object)
+ getRoot(Object)
+ }
+
+ interface INameProvider{
+ getName(Object)
+ }
+
+ class FileSystemCP{
+   getChildren(Object)
+    getRoot(Object)
+    }
+    class FileSystemNP{
+    getName(Object)
+    }
+
+class BookmarkCP{
+ getChildren(Object)
+ getRoot(Object)
+ }
+ class BookmarkNP{
+ getName(Object)
+ }
+'    依赖
+    TreeViewer *-- ITreeContentProvider
+    TreeViewer *-- INameProvider
+ FileSystemCP ..|> ITreeContentProvider
+    FileSystemNP ..|> INameProvider
+    BookmarkCP ..|> ITreeContentProvider
+    BookmarkNP ..|> INameProvider
+
+class Bookmark{}
+
+Bookmark <-- BookmarkCP
+Bookmark <-- BookmarkNP
+@enduml

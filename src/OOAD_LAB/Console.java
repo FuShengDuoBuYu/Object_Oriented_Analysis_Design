@@ -3,7 +3,6 @@ package OOAD_LAB;
 import java.util.Scanner;
 
 import OOAD_LAB.bookmark.Bookmark;
-import OOAD_LAB.command.Command;
 import OOAD_LAB.command.CommandStack;
 import OOAD_LAB.command.commands.AddCommand;
 import OOAD_LAB.command.commands.DeleteCommand;
@@ -17,13 +16,13 @@ public class Console {
 
     private String currentFileName;
 
-    Command command;
     public Console() {
 
     }
 
     //get the user input OOAD_LAB.command
     public void getUserCommand() {
+        System.out.println("Welcome to the bookmark system!");
         Scanner scanner = new Scanner(System.in);
         while (true) {
             String commandString = scanner.nextLine();
@@ -33,13 +32,11 @@ public class Console {
             //add OOAD_LAB.command
             if (commandItems[0].contains("add")) {
                 String[] commands = cutTheItem(commandItems.length==2?makeArrayToFour(commandItems):commandItems);
-                command = new AddCommand(commands);
-                CommandStack.execute(command);
+                CommandStack.execute(new AddCommand(commands));
             }
             //delete OOAD_LAB.command
             if (commandItems[0].contains("delete")) {
-                command = new DeleteCommand(cutTheItem(commandItems));
-                CommandStack.execute(command);
+                CommandStack.execute(new DeleteCommand(cutTheItem(commandItems)));
             }
             //undo
             if (commandItems[0].equals("undo")) {
@@ -52,29 +49,24 @@ public class Console {
             //save
             if (commandItems[0].equals("save")) {
                 String fileName = commandItems.length!=1?commandItems[1]:currentFileName;
-                command = new SaveCommand(fileName);
-                CommandStack.execute(command);
+                CommandStack.execute(new SaveCommand(fileName));
             }
             //open
             if (commandItems[0].equals("open")||commandItems[0].equals("bookmark")) {
                 currentFileName = commandItems[1].substring(1, commandItems[1].length() - 1);
-                command = new OpenCommand(currentFileName);
-                CommandStack.execute(command);
+                CommandStack.execute(new OpenCommand(currentFileName));
             }
             //show-tree
             if (commandItems[0].equals("show-tree")) {
-                command = new ShowTreeCommand(Bookmark.getInstance());
-                CommandStack.execute(command);
+                CommandStack.execute(new ShowTreeCommand(Bookmark.getInstance()));
             }
             //ls-tree
             if (commandItems[0].equals("ls-tree")) {
-                command = new LsTreeCommand();
-                CommandStack.execute(command);
+                CommandStack.execute(new LsTreeCommand());
             }
             //read OOAD_LAB.bookmark
             if(commandItems[0].equals("read-bookmark")) {
-                command = new ReadBookmarkCommand(cutTheItem(commandItems)[1]);
-                CommandStack.execute(command);
+                CommandStack.execute(new ReadBookmarkCommand(cutTheItem(commandItems)[1]));
             }
             if (commandItems[0].contains("exit")) {
                 break;

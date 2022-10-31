@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="305px" preserveAspectRatio="none" style="width:687px;height:305px;background:#FFFFFF;" version="1.1" viewBox="0 0 687 305" width="687px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.1201" id="_title" style="stroke:none;stroke-width:1.0;" width="108" x="282.75" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="98" x="287.75" y="26.0439">装饰器模式类图</text><!--MD5=[52300611f18fa94f82c001247abe54a0]
+class ILabelProvider--><g id="elem_ILabelProvider"><rect codeLine="4" fill="#F1F1F1" height="86.2402" id="ILabelProvider" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="249.5" y="47.1201"/><ellipse cx="273.05" cy="63.1201" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M269.925,59.1201 L269.925,57.4326 L275.8625,57.4326 L275.8625,59.1201 L273.9875,59.1201 Q273.8313,59.1201 273.7844,59.1514 Q273.7375,59.1826 273.7375,59.2295 L273.7375,67.3232 Q273.7375,67.3701 273.7844,67.4014 Q273.8313,67.4326 273.9875,67.4326 L275.8625,67.4326 L275.8625,69.1201 L269.925,69.1201 L269.925,67.4326 L271.8,67.4326 Q272.0031,67.4326 272.0188,67.417 Q272.05,67.4014 272.05,67.3232 L272.05,59.2295 Q272.05,59.1514 272.0188,59.1357 Q272.0031,59.1201 271.8,59.1201 L269.925,59.1201 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="91" x="288.95" y="69.604">ILabelProvider</text><line style="stroke:#181818;stroke-width:0.5;" x1="250.5" x2="390.5" y1="79.1201" y2="79.1201"/><line style="stroke:#181818;stroke-width:0.5;" x1="250.5" x2="390.5" y1="87.1201" y2="87.1201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="255.5" y="107.1641">getLabel(Object)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="255.5" y="126.2842">getSomeInfo(Object)</text></g><!--MD5=[05e9cb1066a812e8155dd7f817de7c43]
+class BookmarkLabelProvider--><g id="elem_BookmarkLabelProvider"><rect codeLine="10" fill="#F1F1F1" height="86.2402" id="BookmarkLabelProvider" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="183" x="7" y="202.6201"/><ellipse cx="22" cy="218.6201" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M21.6875,224.6201 Q19.75,224.6201 18.625,223.1982 Q17.5,221.7607 17.5,218.8076 Q17.5,216.3076 18.6875,214.6201 Q19.875,212.9326 21.9375,212.9326 Q22.4219,212.9326 22.9219,213.042 Q23.3281,213.1826 23.5781,213.1826 Q23.7813,213.1826 23.8594,213.167 Q23.9531,213.1357 24.4844,212.4639 L25.2188,216.6982 L24.25,217.292 Q23.75,215.7451 23.1719,215.1826 Q22.6094,214.6201 21.7031,214.6201 Q20.5469,214.6201 19.8594,215.8076 Q19.1875,216.9795 19.1875,218.8076 Q19.1875,220.8076 19.7656,221.8701 Q20.3438,222.9326 21.6406,222.9326 Q22.5625,222.9326 23.2031,222.3701 Q23.8594,221.792 24.2031,220.4014 L25.2344,220.917 Q24.8438,222.667 23.9063,223.6514 Q22.9688,224.6201 21.6875,224.6201 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="36" y="225.104">BookmarkLabelProvider</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="189" y1="234.6201" y2="234.6201"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="189" y1="242.6201" y2="242.6201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="13" y="262.6641">getLabel(Object)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="13" y="281.7842">getSomeInfo(Object)</text></g><!--MD5=[2caddfe9faed70822c9f27c4a79a9490]
+class BookmarkStarDecorator--><g id="elem_BookmarkStarDecorator"><rect codeLine="15" fill="#F1F1F1" height="105.3604" id="BookmarkStarDecorator" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="190" x="225.5" y="193.1201"/><ellipse cx="243.2" cy="209.1201" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M242.8875,215.1201 Q240.95,215.1201 239.825,213.6982 Q238.7,212.2607 238.7,209.3076 Q238.7,206.8076 239.8875,205.1201 Q241.075,203.4326 243.1375,203.4326 Q243.6219,203.4326 244.1219,203.542 Q244.5281,203.6826 244.7781,203.6826 Q244.9813,203.6826 245.0594,203.667 Q245.1531,203.6357 245.6844,202.9639 L246.4188,207.1982 L245.45,207.792 Q244.95,206.2451 244.3719,205.6826 Q243.8094,205.1201 242.9031,205.1201 Q241.7469,205.1201 241.0594,206.3076 Q240.3875,207.4795 240.3875,209.3076 Q240.3875,211.3076 240.9656,212.3701 Q241.5438,213.4326 242.8406,213.4326 Q243.7625,213.4326 244.4031,212.8701 Q245.0594,212.292 245.4031,210.9014 L246.4344,211.417 Q246.0438,213.167 245.1063,214.1514 Q244.1688,215.1201 242.8875,215.1201 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="257.8" y="215.604">BookmarkStarDecorator</text><line style="stroke:#181818;stroke-width:0.5;" x1="226.5" x2="414.5" y1="225.1201" y2="225.1201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="231.5" y="245.1641">ILabelProvider labelProvider</text><line style="stroke:#181818;stroke-width:0.5;" x1="226.5" x2="414.5" y1="252.2402" y2="252.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="231.5" y="272.2842">getLabel(Object)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="231.5" y="291.4043">getSomeInfo(Object)</text></g><!--MD5=[a5e882989161fb4ec993fd9b623bd372]
+class BookmarkReadCountDecorator--><g id="elem_BookmarkReadCountDecorator"><rect codeLine="21" fill="#F1F1F1" height="105.3604" id="BookmarkReadCountDecorator" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="230" x="450.5" y="193.1201"/><ellipse cx="465.5" cy="209.1201" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M465.1875,215.1201 Q463.25,215.1201 462.125,213.6982 Q461,212.2607 461,209.3076 Q461,206.8076 462.1875,205.1201 Q463.375,203.4326 465.4375,203.4326 Q465.9219,203.4326 466.4219,203.542 Q466.8281,203.6826 467.0781,203.6826 Q467.2813,203.6826 467.3594,203.667 Q467.4531,203.6357 467.9844,202.9639 L468.7188,207.1982 L467.75,207.792 Q467.25,206.2451 466.6719,205.6826 Q466.1094,205.1201 465.2031,205.1201 Q464.0469,205.1201 463.3594,206.3076 Q462.6875,207.4795 462.6875,209.3076 Q462.6875,211.3076 463.2656,212.3701 Q463.8438,213.4326 465.1406,213.4326 Q466.0625,213.4326 466.7031,212.8701 Q467.3594,212.292 467.7031,210.9014 L468.7344,211.417 Q468.3438,213.167 467.4063,214.1514 Q466.4688,215.1201 465.1875,215.1201 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="479.5" y="215.604">BookmarkReadCountDecorator</text><line style="stroke:#181818;stroke-width:0.5;" x1="451.5" x2="679.5" y1="225.1201" y2="225.1201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="456.5" y="245.1641">ILabelProvider labelProvider</text><line style="stroke:#181818;stroke-width:0.5;" x1="451.5" x2="679.5" y1="252.2402" y2="252.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="456.5" y="272.2842">getLabel(Object)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="456.5" y="291.4043">getSomeInfo(Object)</text></g><!--MD5=[2702f3f3eeca0b7aae5cee2f3c11a72f]
+reverse link ILabelProvider to BookmarkStarDecorator--><g id="link_ILabelProvider_BookmarkStarDecorator"><path codeLine="28" d="M307.95,153.4601 C307.58,166.6301 307.72,180.4001 308.38,193.1201 " fill="none" id="ILabelProvider-backto-BookmarkStarDecorator" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="300.96,153.0901,308.96,133.4701,314.94,153.8001,300.96,153.0901" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b634bfd8fc952f0ff2946c0505d58c0b]
+link BookmarkStarDecorator to ILabelProvider--><g id="link_BookmarkStarDecorator_ILabelProvider"><path codeLine="33" d="M333.8044,181.1295 C333.8044,181.1295 334.02,157.2901 333.52,146.4601 " fill="none" id="BookmarkStarDecorator-ILabelProvider" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="332.71,133.4701,329.2817,142.703,333.0233,138.4603,337.266,142.2018,332.71,133.4701" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="333.0233" x2="333.52" y1="138.4603" y2="146.4451"/><polygon fill="#181818" points="333.33,193.1201,337.5641,187.2829,333.8044,181.1295,329.5703,186.9667,333.33,193.1201" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="327.7003" y="182.0876">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="327.0437" y="156.347">1</text></g><!--MD5=[10402e8f85bb420e59d46c4fa42b0c8d]
+reverse link ILabelProvider to BookmarkReadCountDecorator--><g id="link_ILabelProvider_BookmarkReadCountDecorator"><path codeLine="29" d="M393.02,144.2001 C417.48,160.0001 445.09,177.2901 470.98,192.9901 " fill="none" id="ILabelProvider-backto-BookmarkReadCountDecorator" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="389.18,150.0501,376.25,133.2701,396.83,138.3201,389.18,150.0501" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8b543462c95db8c39828fe4e20c0707c]
+link BookmarkReadCountDecorator to ILabelProvider--><g id="link_BookmarkReadCountDecorator_ILabelProvider"><path codeLine="34" d="M485.8831,186.5197 C485.8831,186.5197 429.4,150.8701 402.95,135.0501 " fill="none" id="BookmarkReadCountDecorator-ILabelProvider" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="391.56,128.2801,397.2513,136.3181,395.8576,130.8356,401.3401,129.4419,391.56,128.2801" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="395.8576" x2="402.735" y1="130.8356" y2="134.9201"/><polygon fill="#181818" points="495.97,193.0201,493.0934,186.4076,485.8831,186.5197,488.7598,193.1322,495.97,193.0201" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="478.7002" y="182.3536">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="399.715" y="129.4502">1</text></g><!--MD5=[e5b4ee556136d7cec2ea814388ffdba1]
+reverse link ILabelProvider to BookmarkLabelProvider--><g id="link_ILabelProvider_BookmarkLabelProvider"><path codeLine="30" d="M242.94,144.7501 C215.54,163.7001 185.13,184.7201 159.32,202.5701 " fill="none" id="ILabelProvider-backto-BookmarkLabelProvider" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="239.11,138.8801,259.54,133.2701,247.07,150.4001,239.11,138.8801" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d2b540442dca2ea27b60dfb274b605b0]
+@startuml
+'https://plantuml.com/class-diagram
+title 装饰器模式类图
+
+interface ILabelProvider{
+    getLabel(Object)
+    getSomeInfo(Object)
+}
+
+
+class BookmarkLabelProvider{
+    getLabel(Object)
+    getSomeInfo(Object)
+}
+
+class BookmarkStarDecorator{
+    ILabelProvider labelProvider
+    getLabel(Object)
+    getSomeInfo(Object)
+}
+
+class BookmarkReadCountDecorator{
+    ILabelProvider labelProvider
+    getLabel(Object)
+    getSomeInfo(Object)
+}
+
+'实现
+ILabelProvider <|.. BookmarkStarDecorator
+ILabelProvider <|.. BookmarkReadCountDecorator
+ILabelProvider <|.. BookmarkLabelProvider
+
+'关联
+BookmarkStarDecorator "1" *- -> "1" ILabelProvider
+BookmarkReadCountDecorator "1" *- -> "1" ILabelProvider
+
+@enduml
+
+@startuml
+title 装饰器模式类图
+
+interface ILabelProvider{
+    getLabel(Object)
+    getSomeInfo(Object)
+}
+
+
+class BookmarkLabelProvider{
+    getLabel(Object)
+    getSomeInfo(Object)
+}
+
+class BookmarkStarDecorator{
+    ILabelProvider labelProvider
+    getLabel(Object)
+    getSomeInfo(Object)
+}
+
+class BookmarkReadCountDecorator{
+    ILabelProvider labelProvider
+    getLabel(Object)
+    getSomeInfo(Object)
+}
+
+ILabelProvider <|.. BookmarkStarDecorator
+ILabelProvider <|.. BookmarkReadCountDecorator
+ILabelProvider <|.. BookmarkLabelProvider
+
+BookmarkStarDecorator "1" *- -> "1" ILabelProvider
+BookmarkReadCountDecorator "1" *- -> "1" ILabelProvider
+
+@enduml
+
+PlantUML version 1.2022.12(Mon Oct 24 02:12:26 CST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>

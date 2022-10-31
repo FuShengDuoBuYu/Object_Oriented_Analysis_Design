@@ -114,7 +114,6 @@ public class ReadBookmarkCommandTest {
         }
         ShowTreeCommand showTreeCommand = new ShowTreeCommand(bookmark1);
         showTreeCommand.execute();
-        System.out.println(markInfo.getReadCount());
         ShowTreeCommand showTreeCommand1 = new ShowTreeCommand(getAfterReadBookmarkCommandTest3());
         showTreeCommand1.execute();
         assertEquals(bookmark1, getAfterReadBookmarkCommandTest3());

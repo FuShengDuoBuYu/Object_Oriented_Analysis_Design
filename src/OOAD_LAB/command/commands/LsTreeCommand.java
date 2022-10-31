@@ -12,6 +12,6 @@ public class LsTreeCommand extends Command{
         TreeViewer fileSystemTreeViewer = new TreeViewer(new FileSystemCP(), new FileSystemNP());
         ArrayList<Boolean> ifLastList = new ArrayList<>();
         ifLastList.add(false);
-        fileSystemTreeViewer.printTree(".",true,ifLastList);
+        fileSystemTreeViewer.printTree("./bookmark",true,ifLastList);
     }
 }

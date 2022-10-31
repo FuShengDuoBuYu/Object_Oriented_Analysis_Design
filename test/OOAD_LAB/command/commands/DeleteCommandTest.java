@@ -7,7 +7,6 @@ import OOAD_LAB.command.CommandStack;
 import org.junit.jupiter.api.Test;
 
 import static OOAD_LAB.bookmark.BookmarkTest.*;
-import static OOAD_LAB.bookmark.BookmarkTest.getAfterAddTitleCommandBookMarkTest2;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 public class DeleteCommandTest {
 // the test bookmarks structure is:

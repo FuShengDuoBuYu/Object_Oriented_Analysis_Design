@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Bookmark{
+Bookmark bookmark
+String title
+Integer level
+List<Pair<String,MarkInfo>> marks
+List<Bookmark> subBookmark
+getInstance()
+addSubBookmark(Bookmark b)
+addSubBookmark(Bookmark b,int index)
+findBookmarkByTitle(String title)
+findBookmarkByNode(OperationParentNode node)
+findBookmarkByMarkKey(String key)
+deleteBookmarkByTitle(String title)
+clearBookMarkInfo()
+readBookmark(String bookmarkName)
+}
+
+class MarkInfo{
+String name
+String url
+Integer readCount
+Boolean isRead
+Integer level
+}
+
+class OperationParentNode{
+Integer level
+String title
+Integer index
+getLevel()
+getTitle()
+getIndex()
+OperationParentNode(level,title,index)
+}
+
+'Bookmark -- MarkInfo
+Bookmark o-- MarkInfo
+Bookmark ..> OperationParentNode
+@enduml

@@ -1,0 +1,38 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Model{
+Bookmark bookmark
+addCommand(String command[])
+deleteCommand(String deleteCommand[])
+saveBookmarkToFile(String fileName)
+loadBookmarkFromFile(String fileName)
+readBookmark(String bookmarkName, Bookmark bookmark)
+undoFromDeleteTitle(OperationParentNode node, Bookmark b)
+undoFromDeleteMark(OperationParentNode node, MarkInfo markInfo)
+undoFromAddTitle(OperationParentNode node, Bookmark b)
+undoFromAddMark(OperationParentNode node, MarkInfo markInfo)
+}
+
+class FileIO{
+FILE_PATH
+writeToFile(String content,String fileName)
+readFromFile(String fileName)
+}
+
+class OperationParentNode{
+Integer level
+String title
+Integer index
+getLevel()
+getTitle()
+getIndex()
+OperationParentNode(level,title,index)
+}
+
+'Model 依赖了FileIO
+Model ..> FileIO
+Model ..> OperationParentNode
+Model o-- Bookmark
+class Bookmark{
+}
+@enduml

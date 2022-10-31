@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="326.5px" preserveAspectRatio="none" style="width:767px;height:326px;background:#FFFFFF;" version="1.1" viewBox="0 0 767 326" width="767.5px" zoomAndPan="magnify"><defs/><g><!--MD5=[96293e8b231702a792e4ba32419ac2da]
+class Entry--><g id="elem_Entry"><rect codeLine="3" fill="#F1F1F1" height="33.5601" id="Entry" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="32.5" x="334.25" y="3.5"/><ellipse cx="341.75" cy="11.5" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M341.5938,14.5 Q340.625,14.5 340.0625,13.7891 Q339.5,13.0703 339.5,11.5938 Q339.5,10.3438 340.0938,9.5 Q340.6875,8.6563 341.7188,8.6563 Q341.9609,8.6563 342.2109,8.7109 Q342.4141,8.7813 342.5391,8.7813 Q342.6406,8.7813 342.6797,8.7734 Q342.7266,8.7578 342.9922,8.4219 L343.3594,10.5391 L342.875,10.8359 Q342.625,10.0625 342.3359,9.7813 Q342.0547,9.5 341.6016,9.5 Q341.0234,9.5 340.6797,10.0938 Q340.3438,10.6797 340.3438,11.5938 Q340.3438,12.5938 340.6328,13.125 Q340.9219,13.6563 341.5703,13.6563 Q342.0313,13.6563 342.3516,13.375 Q342.6797,13.0859 342.8516,12.3906 L343.3672,12.6484 Q343.1719,13.5234 342.7031,14.0156 Q342.2344,14.5 341.5938,14.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="16.5" x="348.75" y="14.7419">Entry</text><line style="stroke:#181818;stroke-width:0.25;" x1="334.75" x2="366.25" y1="19.5" y2="19.5"/><line style="stroke:#181818;stroke-width:0.25;" x1="334.75" x2="366.25" y1="23.5" y2="23.5"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="20" x="337.25" y="33.522">main()</text></g><!--MD5=[315b61b427ec618d6861d47eee00cca3]
+class Console--><g id="elem_Console"><rect codeLine="9" fill="#F1F1F1" height="33.5601" id="Console" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="67.5" x="316.75" y="86.25"/><ellipse cx="335.725" cy="94.25" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M335.5688,97.25 Q334.6,97.25 334.0375,96.5391 Q333.475,95.8203 333.475,94.3438 Q333.475,93.0938 334.0688,92.25 Q334.6625,91.4063 335.6938,91.4063 Q335.9359,91.4063 336.1859,91.4609 Q336.3891,91.5313 336.5141,91.5313 Q336.6156,91.5313 336.6547,91.5234 Q336.7016,91.5078 336.9672,91.1719 L337.3344,93.2891 L336.85,93.5859 Q336.6,92.8125 336.3109,92.5313 Q336.0297,92.25 335.5766,92.25 Q334.9984,92.25 334.6547,92.8438 Q334.3188,93.4297 334.3188,94.3438 Q334.3188,95.3438 334.6078,95.875 Q334.8969,96.4063 335.5453,96.4063 Q336.0063,96.4063 336.3266,96.125 Q336.6547,95.8359 336.8266,95.1406 L337.3422,95.3984 Q337.1469,96.2734 336.6781,96.7656 Q336.2094,97.25 335.5688,97.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="26" x="345.275" y="97.4919">Console</text><line style="stroke:#181818;stroke-width:0.25;" x1="317.25" x2="383.75" y1="102.25" y2="102.25"/><line style="stroke:#181818;stroke-width:0.25;" x1="317.25" x2="383.75" y1="106.25" y2="106.25"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="61.5" x="319.75" y="116.272">getUserCommand()</text></g><!--MD5=[c98d44e8879c562bff80b4f3b122538d]
+class CommandStack--><g id="elem_CommandStack"><rect codeLine="13" fill="#F1F1F1" height="71.8003" id="CommandStack" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="91" x="402" y="67"/><ellipse cx="420.975" cy="75" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M420.8188,78 Q419.85,78 419.2875,77.2891 Q418.725,76.5703 418.725,75.0938 Q418.725,73.8438 419.3188,73 Q419.9125,72.1563 420.9438,72.1563 Q421.1859,72.1563 421.4359,72.2109 Q421.6391,72.2813 421.7641,72.2813 Q421.8656,72.2813 421.9047,72.2734 Q421.9516,72.2578 422.2172,71.9219 L422.5844,74.0391 L422.1,74.3359 Q421.85,73.5625 421.5609,73.2813 Q421.2797,73 420.8266,73 Q420.2484,73 419.9047,73.5938 Q419.5688,74.1797 419.5688,75.0938 Q419.5688,76.0938 419.8578,76.625 Q420.1469,77.1563 420.7953,77.1563 Q421.2563,77.1563 421.5766,76.875 Q421.9047,76.5859 422.0766,75.8906 L422.5922,76.1484 Q422.3969,77.0234 421.9281,77.5156 Q421.4594,78 420.8188,78 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="49.5" x="430.525" y="78.2419">CommandStack</text><line style="stroke:#181818;stroke-width:0.25;" x1="402.5" x2="492.5" y1="83" y2="83"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="85" x="405" y="93.022">Stack&lt;Command&gt; unStack</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="83.5" x="405" y="102.582">Stack&lt;Command&gt; reStack</text><line style="stroke:#181818;stroke-width:0.25;" x1="402.5" x2="492.5" y1="106.1201" y2="106.1201"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="19.5" x="405" y="116.1421">redo()</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="21" x="405" y="125.7021">undo()</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="60" x="405" y="135.2622">execute(command)</text></g><!--MD5=[521817ab83e81da341a3f4b5e91bae41]
+class Command--><g id="elem_Command"><rect codeLine="21" fill="#F1F1F1" height="52.6802" id="Command" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="48" x="423.5" y="169"/><ellipse cx="431" cy="177" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M430.8438,180 Q429.875,180 429.3125,179.2891 Q428.75,178.5703 428.75,177.0938 Q428.75,175.8438 429.3438,175 Q429.9375,174.1563 430.9688,174.1563 Q431.2109,174.1563 431.4609,174.2109 Q431.6641,174.2813 431.7891,174.2813 Q431.8906,174.2813 431.9297,174.2734 Q431.9766,174.2578 432.2422,173.9219 L432.6094,176.0391 L432.125,176.3359 Q431.875,175.5625 431.5859,175.2813 Q431.3047,175 430.8516,175 Q430.2734,175 429.9297,175.5938 Q429.5938,176.1797 429.5938,177.0938 Q429.5938,178.0938 429.8828,178.625 Q430.1719,179.1563 430.8203,179.1563 Q431.2813,179.1563 431.6016,178.875 Q431.9297,178.5859 432.1016,177.8906 L432.6172,178.1484 Q432.4219,179.0234 431.9531,179.5156 Q431.4844,180 430.8438,180 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="32" x="438" y="180.2419">Command</text><line style="stroke:#181818;stroke-width:0.25;" x1="424" x2="471" y1="185" y2="185"/><line style="stroke:#181818;stroke-width:0.25;" x1="424" x2="471" y1="189" y2="189"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="29.5" x="426.5" y="199.022">execute()</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="19.5" x="426.5" y="208.582">redo()</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="21" x="426.5" y="218.1421">undo()</text></g><!--MD5=[f859f94e8b128c033004e1775904a451]
+class ShowTreeCommand--><g id="elem_ShowTreeCommand"><rect codeLine="32" fill="#F1F1F1" height="43.1201" id="ShowTreeCommand" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="80" x="3.5" y="266"/><ellipse cx="11" cy="274" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M10.8438,277 Q9.875,277 9.3125,276.2891 Q8.75,275.5703 8.75,274.0938 Q8.75,272.8438 9.3438,272 Q9.9375,271.1563 10.9688,271.1563 Q11.2109,271.1563 11.4609,271.2109 Q11.6641,271.2813 11.7891,271.2813 Q11.8906,271.2813 11.9297,271.2734 Q11.9766,271.2578 12.2422,270.9219 L12.6094,273.0391 L12.125,273.3359 Q11.875,272.5625 11.5859,272.2813 Q11.3047,272 10.8516,272 Q10.2734,272 9.9297,272.5938 Q9.5938,273.1797 9.5938,274.0938 Q9.5938,275.0938 9.8828,275.625 Q10.1719,276.1563 10.8203,276.1563 Q11.2813,276.1563 11.6016,275.875 Q11.9297,275.5859 12.1016,274.8906 L12.6172,275.1484 Q12.4219,276.0234 11.9531,276.5156 Q11.4844,277 10.8438,277 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="64" x="18" y="277.2419">ShowTreeCommand</text><line style="stroke:#181818;stroke-width:0.25;" x1="4" x2="83" y1="282" y2="282"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="64.5" x="6.5" y="292.022">Bookmark bookmark</text><line style="stroke:#181818;stroke-width:0.25;" x1="4" x2="83" y1="295.5601" y2="295.5601"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="29.5" x="6.5" y="305.582">execute()</text></g><!--MD5=[522bcce41d81f20cd1f9638a73c3e08a]
+class DeleteCommand--><g id="elem_DeleteCommand"><rect codeLine="39" fill="#F1F1F1" height="71.8003" id="DeleteCommand" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="143" x="101" y="251.5"/><ellipse cx="144.125" cy="259.5" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M143.9688,262.5 Q143,262.5 142.4375,261.7891 Q141.875,261.0703 141.875,259.5938 Q141.875,258.3438 142.4688,257.5 Q143.0625,256.6563 144.0938,256.6563 Q144.3359,256.6563 144.5859,256.7109 Q144.7891,256.7813 144.9141,256.7813 Q145.0156,256.7813 145.0547,256.7734 Q145.1016,256.7578 145.3672,256.4219 L145.7344,258.5391 L145.25,258.8359 Q145,258.0625 144.7109,257.7813 Q144.4297,257.5 143.9766,257.5 Q143.3984,257.5 143.0547,258.0938 Q142.7188,258.6797 142.7188,259.5938 Q142.7188,260.5938 143.0078,261.125 Q143.2969,261.6563 143.9453,261.6563 Q144.4063,261.6563 144.7266,261.375 Q145.0547,261.0859 145.2266,260.3906 L145.7422,260.6484 Q145.5469,261.5234 145.0781,262.0156 Q144.6094,262.5 143.9688,262.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="52.5" x="154.375" y="262.7419">DeleteCommand</text><line style="stroke:#181818;stroke-width:0.25;" x1="101.5" x2="243.5" y1="267.5" y2="267.5"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="40" x="104" y="277.522">Model model</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="76" x="104" y="287.082">String[] deleteCommand</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="137" x="104" y="296.6421">Map&lt;OprationParentNode,?&gt; deleteRecord</text><line style="stroke:#181818;stroke-width:0.25;" x1="101.5" x2="243.5" y1="300.1802" y2="300.1802"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="21" x="104" y="310.2021">undo()</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="29.5" x="104" y="319.7622">execute()</text></g><!--MD5=[74ffcafef969057a048a931ccc96bb27]
+class AddCommand--><g id="elem_AddCommand"><rect codeLine="47" fill="#F1F1F1" height="71.8003" id="AddCommand" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="135.5" x="261.75" y="251.5"/><ellipse cx="305.125" cy="259.5" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M304.9688,262.5 Q304,262.5 303.4375,261.7891 Q302.875,261.0703 302.875,259.5938 Q302.875,258.3438 303.4688,257.5 Q304.0625,256.6563 305.0938,256.6563 Q305.3359,256.6563 305.5859,256.7109 Q305.7891,256.7813 305.9141,256.7813 Q306.0156,256.7813 306.0547,256.7734 Q306.1016,256.7578 306.3672,256.4219 L306.7344,258.5391 L306.25,258.8359 Q306,258.0625 305.7109,257.7813 Q305.4297,257.5 304.9766,257.5 Q304.3984,257.5 304.0547,258.0938 Q303.7188,258.6797 303.7188,259.5938 Q303.7188,260.5938 304.0078,261.125 Q304.2969,261.6563 304.9453,261.6563 Q305.4063,261.6563 305.7266,261.375 Q306.0547,261.0859 306.2266,260.3906 L306.7422,260.6484 Q306.5469,261.5234 306.0781,262.0156 Q305.6094,262.5 304.9688,262.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="44.5" x="315.375" y="262.7419">AddCommand</text><line style="stroke:#181818;stroke-width:0.25;" x1="262.25" x2="396.75" y1="267.5" y2="267.5"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="40" x="264.75" y="277.522">Model model</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="68.5" x="264.75" y="287.082">String[] addCommand</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="129.5" x="264.75" y="296.6421">Map&lt;OprationParentNode,?&gt; addRecord</text><line style="stroke:#181818;stroke-width:0.25;" x1="262.25" x2="396.75" y1="300.1802" y2="300.1802"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="21" x="264.75" y="310.2021">undo()</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="29.5" x="264.75" y="319.7622">execute()</text></g><!--MD5=[6f8a4083e5f9147c3094a66480ebcfe9]
+class OpenCommand--><g id="elem_OpenCommand"><rect codeLine="55" fill="#F1F1F1" height="52.6802" id="OpenCommand" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="65.5" x="414.75" y="261.25"/><ellipse cx="422.25" cy="269.25" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M422.0938,272.25 Q421.125,272.25 420.5625,271.5391 Q420,270.8203 420,269.3438 Q420,268.0938 420.5938,267.25 Q421.1875,266.4063 422.2188,266.4063 Q422.4609,266.4063 422.7109,266.4609 Q422.9141,266.5313 423.0391,266.5313 Q423.1406,266.5313 423.1797,266.5234 Q423.2266,266.5078 423.4922,266.1719 L423.8594,268.2891 L423.375,268.5859 Q423.125,267.8125 422.8359,267.5313 Q422.5547,267.25 422.1016,267.25 Q421.5234,267.25 421.1797,267.8438 Q420.8438,268.4297 420.8438,269.3438 Q420.8438,270.3438 421.1328,270.875 Q421.4219,271.4063 422.0703,271.4063 Q422.5313,271.4063 422.8516,271.125 Q423.1797,270.8359 423.3516,270.1406 L423.8672,270.3984 Q423.6719,271.2734 423.2031,271.7656 Q422.7344,272.25 422.0938,272.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="49.5" x="429.25" y="272.4919">OpenCommand</text><line style="stroke:#181818;stroke-width:0.25;" x1="415.25" x2="479.75" y1="277.25" y2="277.25"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="40" x="417.75" y="287.272">Model model</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="47" x="417.75" y="296.832">String filename</text><line style="stroke:#181818;stroke-width:0.25;" x1="415.25" x2="479.75" y1="300.3701" y2="300.3701"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="29.5" x="417.75" y="310.3921">execute()</text></g><!--MD5=[fa2c2fc29f7f3c0b78fbcf22d455defd]
+class SaveCommand--><g id="elem_SaveCommand"><rect codeLine="61" fill="#F1F1F1" height="52.6802" id="SaveCommand" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="64" x="498" y="261.25"/><ellipse cx="505.5" cy="269.25" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M505.3438,272.25 Q504.375,272.25 503.8125,271.5391 Q503.25,270.8203 503.25,269.3438 Q503.25,268.0938 503.8438,267.25 Q504.4375,266.4063 505.4688,266.4063 Q505.7109,266.4063 505.9609,266.4609 Q506.1641,266.5313 506.2891,266.5313 Q506.3906,266.5313 506.4297,266.5234 Q506.4766,266.5078 506.7422,266.1719 L507.1094,268.2891 L506.625,268.5859 Q506.375,267.8125 506.0859,267.5313 Q505.8047,267.25 505.3516,267.25 Q504.7734,267.25 504.4297,267.8438 Q504.0938,268.4297 504.0938,269.3438 Q504.0938,270.3438 504.3828,270.875 Q504.6719,271.4063 505.3203,271.4063 Q505.7813,271.4063 506.1016,271.125 Q506.4297,270.8359 506.6016,270.1406 L507.1172,270.3984 Q506.9219,271.2734 506.4531,271.7656 Q505.9844,272.25 505.3438,272.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="48" x="512.5" y="272.4919">SaveCommand</text><line style="stroke:#181818;stroke-width:0.25;" x1="498.5" x2="561.5" y1="277.25" y2="277.25"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="40" x="501" y="287.272">Model model</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="47" x="501" y="296.832">String filename</text><line style="stroke:#181818;stroke-width:0.25;" x1="498.5" x2="561.5" y1="300.3701" y2="300.3701"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="29.5" x="501" y="310.3921">execute()</text></g><!--MD5=[ac42710f87105d5594b1f9b234ba6e29]
+class ReadBookmarkCommand--><g id="elem_ReadBookmarkCommand"><rect codeLine="67" fill="#F1F1F1" height="52.6802" id="ReadBookmarkCommand" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="96.5" x="579.75" y="261.25"/><ellipse cx="587.25" cy="269.25" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M587.0938,272.25 Q586.125,272.25 585.5625,271.5391 Q585,270.8203 585,269.3438 Q585,268.0938 585.5938,267.25 Q586.1875,266.4063 587.2188,266.4063 Q587.4609,266.4063 587.7109,266.4609 Q587.9141,266.5313 588.0391,266.5313 Q588.1406,266.5313 588.1797,266.5234 Q588.2266,266.5078 588.4922,266.1719 L588.8594,268.2891 L588.375,268.5859 Q588.125,267.8125 587.8359,267.5313 Q587.5547,267.25 587.1016,267.25 Q586.5234,267.25 586.1797,267.8438 Q585.8438,268.4297 585.8438,269.3438 Q585.8438,270.3438 586.1328,270.875 Q586.4219,271.4063 587.0703,271.4063 Q587.5313,271.4063 587.8516,271.125 Q588.1797,270.8359 588.3516,270.1406 L588.8672,270.3984 Q588.6719,271.2734 588.2031,271.7656 Q587.7344,272.25 587.0938,272.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="80.5" x="594.25" y="272.4919">ReadBookmarkCommand</text><line style="stroke:#181818;stroke-width:0.25;" x1="580.25" x2="675.75" y1="277.25" y2="277.25"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="40" x="582.75" y="287.272">Model model</text><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="69.5" x="582.75" y="296.832">String bookmarkName</text><line style="stroke:#181818;stroke-width:0.25;" x1="580.25" x2="675.75" y1="300.3701" y2="300.3701"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="29.5" x="582.75" y="310.3921">execute()</text></g><!--MD5=[ab169c77c40de27cfe0f2ee835f1edf6]
+class LsTreeCommand--><g id="elem_LsTreeCommand"><rect codeLine="73" fill="#F1F1F1" height="33.5601" id="LsTreeCommand" rx="1.25" ry="1.25" style="stroke:#181818;stroke-width:0.25;" width="70.5" x="693.75" y="270.75"/><ellipse cx="701.25" cy="278.75" fill="#ADD1B2" rx="5.5" ry="5.5" style="stroke:#181818;stroke-width:0.5;"/><path d="M701.0938,281.75 Q700.125,281.75 699.5625,281.0391 Q699,280.3203 699,278.8438 Q699,277.5938 699.5938,276.75 Q700.1875,275.9063 701.2188,275.9063 Q701.4609,275.9063 701.7109,275.9609 Q701.9141,276.0313 702.0391,276.0313 Q702.1406,276.0313 702.1797,276.0234 Q702.2266,276.0078 702.4922,275.6719 L702.8594,277.7891 L702.375,278.0859 Q702.125,277.3125 701.8359,277.0313 Q701.5547,276.75 701.1016,276.75 Q700.5234,276.75 700.1797,277.3438 Q699.8438,277.9297 699.8438,278.8438 Q699.8438,279.8438 700.1328,280.375 Q700.4219,280.9063 701.0703,280.9063 Q701.5313,280.9063 701.8516,280.625 Q702.1797,280.3359 702.3516,279.6406 L702.8672,279.8984 Q702.6719,280.7734 702.2031,281.2656 Q701.7344,281.75 701.0938,281.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="54.5" x="708.25" y="281.9919">LsTreeCommand</text><line style="stroke:#181818;stroke-width:0.25;" x1="694.25" x2="763.75" y1="286.75" y2="286.75"/><line style="stroke:#181818;stroke-width:0.25;" x1="694.25" x2="763.75" y1="290.75" y2="290.75"/><text fill="#000000" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="29.5" x="696.75" y="300.772">execute()</text></g><!--MD5=[e83b4d660b3e6716adff1cc591bf444e]
+link Entry to Console--><g id="link_Entry_Console"><path codeLine="7" d="M350.5,37.095 C350.5,50.52 350.5,69.54 350.5,83.615 " fill="none" id="Entry-to-Console" style="stroke:#181818;stroke-width:0.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="350.5,86.18,352.5,81.68,350.5,83.68,348.5,81.68,350.5,86.18" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[350110a7d354945ae428575d981da064]
+link Console to CommandStack--><g id="link_Console_CommandStack"><path codeLine="28" d="M384.41,103 C390.245,103 396.075,103 401.91,103 " fill="none" id="Console-CommandStack" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[9671acff1dc9ac7ceadfbf2c3c1925b8]
+link CommandStack to Command--><g id="link_CommandStack_Command"><path codeLine="31" d="M447.5,139.04 C447.5,148.065 447.5,157.645 447.5,166.265 " fill="none" id="CommandStack-to-Command" style="stroke:#181818;stroke-width:0.5;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="447.5,168.91,449.5,164.41,447.5,166.41,445.5,164.41,447.5,168.91" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[f1beb5af875fdb2722f3c2f77ee742d1]
+reverse link Command to DeleteCommand--><g id="link_Command_DeleteCommand"><path codeLine="78" d="M413.535,203.99 C374.36,213.83 308.26,231.5 253,251.5 C250.055,252.565 247.065,253.69 244.06,254.85 " fill="none" id="Command-backto-DeleteCommand" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="none" points="412.815,200.56,423.36,201.54,414.505,207.355,412.815,200.56" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[7ec621ff550be36b75333bace82f64e1]
+reverse link Command to AddCommand--><g id="link_Command_AddCommand"><path codeLine="79" d="M415.5,220.495 C403.17,230.03 388.835,241.115 375.445,251.47 " fill="none" id="Command-backto-AddCommand" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="none" points="413.425,217.675,423.48,214.325,417.71,223.21,413.425,217.675" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[920a82f9c2ea2c6280fbe0f7e1b134e1]
+reverse link Command to OpenCommand--><g id="link_Command_OpenCommand"><path codeLine="80" d="M447.5,231.785 C447.5,241.61 447.5,252.055 447.5,261.19 " fill="none" id="Command-backto-OpenCommand" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="none" points="444,231.655,447.5,221.655,451,231.655,444,231.655" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[4db66729819c00b7fdd6221996a44bd0]
+reverse link Command to SaveCommand--><g id="link_Command_SaveCommand"><path codeLine="81" d="M477.695,229.15 C487.255,239.72 497.665,251.235 506.665,261.19 " fill="none" id="Command-backto-SaveCommand" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="none" points="475.03,231.42,470.92,221.655,480.225,226.725,475.03,231.42" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[fc52e2e9fc2e85bc555c5da25aeb575e]
+reverse link Command to ReadBookmarkCommand--><g id="link_Command_ReadBookmarkCommand"><path codeLine="82" d="M480.925,209.41 C506.105,220.04 541.26,235.615 571,251.5 C576.605,254.495 582.405,257.82 588.065,261.205 " fill="none" id="Command-backto-ReadBookmarkCommand" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="none" points="479.5,212.61,471.63,205.52,482.205,206.15,479.5,212.61" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[ae15a13804c4b3d82949f8453d40c320]
+reverse link Command to LsTreeCommand--><g id="link_Command_LsTreeCommand"><path codeLine="83" d="M481.69,198.94 C529.335,204.435 617.435,218.47 685,251.5 C694.965,256.37 704.705,263.86 712.48,270.705 " fill="none" id="Command-backto-LsTreeCommand" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="none" points="481.16,202.405,471.605,197.835,481.925,195.445,481.16,202.405" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[1a9795c9719dbd6ecc5dbb6d8314cd93]
+reverse link Command to ShowTreeCommand--><g id="link_Command_ShowTreeCommand"><path codeLine="84" d="M413.265,195.825 C348.155,197.09 203.08,205.36 92,251.5 C83.425,255.065 74.95,260.44 67.54,265.935 " fill="none" id="Command-backto-ShowTreeCommand" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="none" points="413.325,192.32,423.375,195.67,413.43,199.32,413.325,192.32" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[39b6aac99fb6371e35959a8fddcae84b]
+@startuml
+'https://plantuml.com/class-diagram
+
+class Entry{
+main()
+}
+'Entry的main调用Console
+Entry ..> Console
+
+class Console{
+getUserCommand()
+}
+
+class CommandStack{
+Stack<Command> unStack
+Stack<Command> reStack
+redo()
+undo()
+execute(command)
+}
+
+class Command{
+execute()
+redo()
+undo()
+}
+
+'console会调用CommandStack
+Console - CommandStack
+
+'CommandStack会有多个Command
+CommandStack ..> Command
+class ShowTreeCommand{
+Bookmark bookmark
+
+execute()
+
+}
+
+class DeleteCommand{
+Model model
+String[] deleteCommand
+Map<OprationParentNode,?> deleteRecord
+undo()
+execute()
+}
+
+class AddCommand{
+Model model
+String[] addCommand
+Map<OprationParentNode,?> addRecord
+undo()
+execute()
+}
+
+class OpenCommand{
+Model model
+String filename
+execute()
+}
+
+class SaveCommand{
+Model model
+String filename
+execute()
+}
+
+class ReadBookmarkCommand{
+Model model
+String bookmarkName
+execute()
+}
+
+class LsTreeCommand{
+execute()
+}
+
+'继承关系
+Command <|- - DeleteCommand
+Command <|- - AddCommand
+Command <|- - OpenCommand
+Command <|- - SaveCommand
+Command <|- - ReadBookmarkCommand
+Command <|- - LsTreeCommand
+Command <|- - ShowTreeCommand
+
+
+
+@enduml
+
+@startuml
+
+class Entry{
+main()
+}
+Entry ..> Console
+
+class Console{
+getUserCommand()
+}
+
+class CommandStack{
+Stack<Command> unStack
+Stack<Command> reStack
+redo()
+undo()
+execute(command)
+}
+
+class Command{
+execute()
+redo()
+undo()
+}
+
+Console - CommandStack
+
+CommandStack ..> Command
+class ShowTreeCommand{
+Bookmark bookmark
+
+execute()
+
+}
+
+class DeleteCommand{
+Model model
+String[] deleteCommand
+Map<OprationParentNode,?> deleteRecord
+undo()
+execute()
+}
+
+class AddCommand{
+Model model
+String[] addCommand
+Map<OprationParentNode,?> addRecord
+undo()
+execute()
+}
+
+class OpenCommand{
+Model model
+String filename
+execute()
+}
+
+class SaveCommand{
+Model model
+String filename
+execute()
+}
+
+class ReadBookmarkCommand{
+Model model
+String bookmarkName
+execute()
+}
+
+class LsTreeCommand{
+execute()
+}
+
+Command <|- - DeleteCommand
+Command <|- - AddCommand
+Command <|- - OpenCommand
+Command <|- - SaveCommand
+Command <|- - ReadBookmarkCommand
+Command <|- - LsTreeCommand
+Command <|- - ShowTreeCommand
+
+
+
+@enduml
+
+PlantUML version 1.2022.12(Mon Oct 24 02:12:26 CST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>

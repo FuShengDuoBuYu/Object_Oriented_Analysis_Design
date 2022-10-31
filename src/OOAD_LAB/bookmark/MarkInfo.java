@@ -62,17 +62,6 @@ public class MarkInfo {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         MarkInfo markInfo = (MarkInfo) o;
-        System.out.println("markInfo.name = " + markInfo.name);
-        System.out.println("markInfo.url = " + markInfo.url);
-        System.out.println("markInfo.readCount = " + markInfo.readCount);
-        System.out.println("markInfo.isRead = " + markInfo.isRead);
-        System.out.println("markInfo.level = " + markInfo.level);
-        System.out.println("this.name = " + this.name);
-        System.out.println("this.url = " + this.url);
-        System.out.println("this.readCount = " + this.readCount);
-        System.out.println("this.isRead = " + this.isRead);
-        System.out.println("this.level = " + this.level);
-
         return Objects.equals(name, markInfo.name) && Objects.equals(url, markInfo.url) && Objects.equals(readCount, markInfo.readCount) && Objects.equals(isRead, markInfo.isRead) && Objects.equals(level, markInfo.level);
     }
 

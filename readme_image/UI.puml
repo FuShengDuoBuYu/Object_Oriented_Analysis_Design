@@ -1,0 +1,89 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Entry{
+main()
+}
+'Entry的main调用Console
+Entry ..> Console
+
+class Console{
+getUserCommand()
+}
+
+class CommandStack{
+Stack<Command> unStack
+Stack<Command> reStack
+redo()
+undo()
+execute(command)
+}
+
+class Command{
+execute()
+redo()
+undo()
+}
+
+'console会调用CommandStack
+Console - CommandStack
+
+'CommandStack会有多个Command
+CommandStack ..> Command
+class ShowTreeCommand{
+Bookmark bookmark
+
+execute()
+
+}
+
+class DeleteCommand{
+Model model
+String[] deleteCommand
+Map<OprationParentNode,?> deleteRecord
+undo()
+execute()
+}
+
+class AddCommand{
+Model model
+String[] addCommand
+Map<OprationParentNode,?> addRecord
+undo()
+execute()
+}
+
+class OpenCommand{
+Model model
+String filename
+execute()
+}
+
+class SaveCommand{
+Model model
+String filename
+execute()
+}
+
+class ReadBookmarkCommand{
+Model model
+String bookmarkName
+execute()
+}
+
+class LsTreeCommand{
+execute()
+}
+
+'继承关系
+Command <|-- DeleteCommand
+Command <|-- AddCommand
+Command <|-- OpenCommand
+Command <|-- SaveCommand
+Command <|-- ReadBookmarkCommand
+Command <|-- LsTreeCommand
+Command <|-- ShowTreeCommand
+
+
+
+@enduml
