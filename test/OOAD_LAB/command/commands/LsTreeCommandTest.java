@@ -12,10 +12,6 @@ public class LsTreeCommandTest {
     //we need to chech the print ability of the treeViewer of ls
     @Test
     public void lsTreeCommandTest() {
-//        TreeViewer fileSystemTreeViewer = new TreeViewer(new FileSystemCP(), new FileSystemNP());
-//        ArrayList<Boolean> ifLastList = new ArrayList<>();
-//        ifLastList.add(false);
-//        ArrayList<String> printRes = fileSystemTreeViewer.printTree("\\test\\command",true,ifLastList);
         TreeViewer fileSystemTreeViewer = new TreeViewer(new FileSystemCP(), new FileSystemNP());
         ArrayList<Boolean> ifLastList = new ArrayList<>();
         ifLastList.add(false);
@@ -32,10 +28,13 @@ public class LsTreeCommandTest {
 //    │   │   ├──"LsTreeCommandTest.java"
 //    │   │   ├──"OpenCommandTest.java"
 //    │   │   ├──"ReadBookmarkCommandTest.java"
-//    │   │   ├──"ShowTreeCommandTest.java"
-//    │   │   └──"test.bmk"
+//    │   │   └──"ShowTreeCommandTest.java"
 //    │   └──"CommandStackTest.java"
-//    └──"ConsoleTest.java"
+//    ├──complexTest
+//    │   └──"ComplexTest.java"
+//    ├──"ConsoleTest.java"
+//    └──test_bookmark
+//        └──"test.bmk"
         expectRes.add("test");
         expectRes.add("└──OOAD_LAB");
         expectRes.add("    ├──bookmark");
@@ -47,10 +46,14 @@ public class LsTreeCommandTest {
         expectRes.add("    │   │   ├──\"LsTreeCommandTest.java\"");
         expectRes.add("    │   │   ├──\"OpenCommandTest.java\"");
         expectRes.add("    │   │   ├──\"ReadBookmarkCommandTest.java\"");
-        expectRes.add("    │   │   ├──\"ShowTreeCommandTest.java\"");
-        expectRes.add("    │   │   └──\"test.bmk\"");
+        expectRes.add("    │   │   └──\"ShowTreeCommandTest.java\"");
         expectRes.add("    │   └──\"CommandStackTest.java\"");
-        expectRes.add("    └──\"ConsoleTest.java\"");
+        expectRes.add("    ├──complexTest");
+        expectRes.add("    │   └──\"ComplexTest.java\"");
+        expectRes.add("    ├──\"ConsoleTest.java\"");
+        expectRes.add("    └──test_bookmark");
+        expectRes.add("        └──\"test.bmk\"");
+
 
         assert printRes.equals(expectRes);
     }

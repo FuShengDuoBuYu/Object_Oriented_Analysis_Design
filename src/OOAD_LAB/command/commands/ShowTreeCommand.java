@@ -6,6 +6,7 @@ import OOAD_LAB.treeView.TreeViewer;
 import OOAD_LAB.treeView.bookmarkTree.BookmarkNP;
 import OOAD_LAB.treeView.bookmarkTree.BookmarkCP;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class ShowTreeCommand extends Command{
@@ -23,4 +24,11 @@ public class ShowTreeCommand extends Command{
         this.bookmark = bookmark;
     }
 
+    public ArrayList<String> execute(ArrayList<String> printRes){
+        TreeViewer bookmarkTree = new TreeViewer(new BookmarkCP(), new BookmarkNP());
+        ArrayList<Boolean> ifLastList = new ArrayList<>();
+        ifLastList.add(true);
+        printRes = bookmarkTree.printTree(bookmark,true,ifLastList);
+        return printRes;
+    }
 }

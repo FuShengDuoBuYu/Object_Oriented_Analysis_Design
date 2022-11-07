@@ -20,7 +20,7 @@ public class CommandStackTest {
         CommandStack.execute(deleteCommand);
         assertEquals(++initReStackSize,CommandStack.getReStackSize());
         //we need to see after not add/delete command executed,if the reStack not grow
-        Command lsCommand = new LsTreeCommand();
+        Command lsCommand = new LsTreeCommand("./bookmark");
         CommandStack.execute(lsCommand);
         assertEquals(initReStackSize,CommandStack.getReStackSize());
     }

@@ -47,7 +47,7 @@ public class OpenCommandTest {
         //we try to read the file and load the bookmarks from the file
         //then we compare the bookmarks with the test bookmarks to check whether the load is successful
         Bookmark bookmark = new Bookmark("",0,new ArrayList<>(),new ArrayList<>());
-        Command openCommand = new OpenCommand("/test/OOAD_LAB/command/commands/test.bmk",new Model(bookmark));
+        Command openCommand = new OpenCommand("/test/OOAD_LAB/test_bookmark/test.bmk",new Model(bookmark));
         CommandStack.execute(openCommand);
         assertTrue(bookmark.equals(initOpenBookmarkCommandTest()));
     }

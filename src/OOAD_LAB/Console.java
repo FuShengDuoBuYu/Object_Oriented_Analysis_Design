@@ -62,7 +62,7 @@ public class Console {
             }
             //ls-tree
             if (commandItems[0].equals("ls-tree")) {
-                CommandStack.execute(new LsTreeCommand());
+                CommandStack.execute(new LsTreeCommand("./bookmark"));
             }
             //read OOAD_LAB.bookmark
             if(commandItems[0].equals("read-bookmark")) {

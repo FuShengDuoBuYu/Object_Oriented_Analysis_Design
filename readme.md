@@ -16,6 +16,22 @@ java -jar OOAD_LAB.jar
 
 <video id="video" controls="" preload="none"> <source id="mp4" src="readme_image/test.mp4" type="video/mp4"> </video>
 
+3.使用程序执行
+
+如果要按照手动测试用例执行,进行书签时,还请将测试用例中的
+
+```bash
+open "test1.bmk"
+```
+
+修改为
+
+```bash
+open "bookmark/test1.bmk"
+```
+
+以便于后面使用ls-tree命令时可以更好的展示文件结构
+
 #### 方法二:
 
 1.将压缩包解压缩,里面包括了源代码
@@ -82,11 +98,12 @@ java -jar OOAD_LAB.jar
 │       │   │   ├──"LsTreeCommandTest.java"
 │       │   │   ├──"OpenCommandTest.java"
 │       │   │   ├──"ReadBookmarkCommandTest.java"
-│       │   │   ├──"ShowTreeCommandTest.java"
-│       │   │   └──"test.bmk"
+│       │   │   └──"ShowTreeCommandTest.java"
 │       │   └──"CommandStackTest.java"
+│       ├──test_bookmark
+│       │   └──"test.bmk"  # 测试用书签文件
 │       └──"ConsoleTest.java"
-└──"test1.bmk"
+
 ```
 
 ---
@@ -226,16 +243,15 @@ java -jar OOAD_LAB.jar
 
 ##### 类图
 
-<img src="readme_image/Adapter.svg" width = "100%"></img>
+<img src="readme_image/adapter.svg" width = "100%"></img>
 
 #### 单例模式
 ##### 使用场景
 
 在对标签的状态进行保存时,把最顶层的书签作为单例模式存储,便于model获取书签信息以及打印等相关操作
 
----
-
 ### 未用到的设计模式与原因
+
 #### 工厂模式
 
 ##### 原因
@@ -244,12 +260,12 @@ java -jar OOAD_LAB.jar
 
 ---
 ### 自动测试
-
 #### 测试用例
 
+##### 各个需求的单元测试
 张老师在课上提到,每个命令至少给一个测试用例,因此我这里对每个命令给出了至少一个测试用例,除此之外,还为CommandStack以及Console类给出了对应的测试用例
 
-测试函数一共有13个,用来测试各个命令以及console等类的基本功能
+###### 单元测试函数一共有13个,用来测试各个命令以及console等类的基本功能
 
 - add命令以及undo和redo功能(共两个)
   - addTitleCommandAndUndoTest()
@@ -278,6 +294,15 @@ java -jar OOAD_LAB.jar
 - commandStack类(共两个)
     - executeTest()
     - undoAndRedoTest()
+
+##### 整体的复杂的组合测试
+###### 为了更好的测试程序的基本功能,这里给出了两个复杂的测试用例
+这两个测试用例分别对应于手动测试的用例1,2,3,5的组合,涵盖了所有的命令
+- ComplexTest类中
+  - complexTest1()
+    - 用于组合测试add,delete,read,show-tree,undo,redo等基本命令的实现与操作
+  - complexTest2()
+    - 用于组合测试open,save,ls-tree等于业务逻辑不太相关的实现与操作
 
 #### 测试内容(示例)
 
@@ -379,9 +404,9 @@ public static Bookmark initAddCommandBookmarkTest(){
 
 
 
-- 其他函数的测试内容与这里介绍的基本类似,最终实现了所有命令以及一些重要类的测试任务
+- 其他函数的测试内容与这里介绍的基本类似,最终实现了所有命令以及一些重要类的测试任务,同时还测试了复杂的组合业务逻辑
 
 #### 测试结果
-测试13个函数,全部通过,测试结果如下图所示
+测试15个函数,全部通过,测试结果如下图所示
 ![img.png](readme_image/test.png)
 

@@ -15,4 +15,9 @@ public class SaveCommand extends Command{
         this.fileName = fileName;
         model = new Model(Bookmark.getInstance());
     }
+
+    public SaveCommand(String fileName, Model model) {
+        this.fileName = fileName;
+        this.model = model;
+    }
 }

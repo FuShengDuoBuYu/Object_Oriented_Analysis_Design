@@ -43,11 +43,16 @@ public class TreeViewer {
                 }
             }
             else{
-                if(ifLastList.get(i+1)){
-                    res = res+"    ";
+                if(i+1== ifLastList.size()){
+
                 }
                 else{
-                    res = res+"│   ";
+                    if(ifLastList.get(i+1)){
+                        res = res+"    ";
+                    }
+                    else{
+                        res = res+"│   ";
+                    }
                 }
             }
         }
